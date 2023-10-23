@@ -4,3 +4,4 @@
     API expects 1 input parameter with name 'text'
     Input example: curl -X POST -H "Content-Type: application/json" -d '{"text": "Hello. This is the first test of this api."}' http://localhost:8000/get_text_complexity_index
     Output example: {"score":-0.9324489624148711}
+   NOTE: api requires files trained_regression_model.pkl, vectorizer.pkl (can be generated with trail_mode.py)
